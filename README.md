@@ -52,6 +52,6 @@
     <li>Submit a pull request to the <code>main</code> branch of the original repository.</li>
   </ol>
 
-  <h2>License</h2><a herf="">Live Link</a>
-
-  <p>This project is licensed under the MIT License. See the <a href="https://todo-list-gamma-53.vercel.app/">LICENSE</a> file for details.</p>
+  <h2>License</h2>
+  <p>This project is licensed under the MIT License. See the <a href="#">LICENSE</a> file for details.</p>
+<a href="https://todo-list-gamma-53.vercel.app/">Live Link</a> 
