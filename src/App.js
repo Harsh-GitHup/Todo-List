@@ -7,6 +7,7 @@ import Footer from './Components/Footer';
 import AddTodo from './Components/AddTodo';
 import About from './Components/About';
 import './App.css';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 function App() {
   // Initialize todos using a function to handle local storage parsing
