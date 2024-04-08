@@ -55,4 +55,4 @@
   <h2>License</h2>
   <p>This project is licensed under the MIT License. See the <a href="#">LICENSE</a> file for details.</p>
 
-<a herf='https://todo-list-gamma-53.vercel.app/'><b>Live Link:</b></a>
+<a herf='https://todo-list-gamma-53.vercel.app/'>Live Link:</a>
