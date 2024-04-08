@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+<h1>Todo List App</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <p>The Todo List App is a simple application designed to help users organize and manage their tasks efficiently. Users can create, view, update, and delete tasks through a user-friendly interface.</p>
 
-## Available Scripts
+  <h2>Features</h2>
+  <ul>
+    <li><strong>Create Tasks:</strong> Users can add new tasks to their list, specifying a title and optional description.</li>
+    <li><strong>View Tasks:</strong> Users can see a list of all their tasks, including their titles and descriptions.</li>
+    <li><strong>Update Tasks:</strong> Users can edit existing tasks to update their titles or descriptions.</li>
+    <li><strong>Delete Tasks:</strong> Users can remove tasks from their list, deleting them permanently.</li>
+    <li><strong>Mark Tasks as Completed:</strong> Users can mark tasks as completed, allowing them to track their progress.</li>
+    <li><strong>Filter Tasks:</strong> Users can filter tasks based on their completion status (completed or pending).</li>
+    <li><strong>Responsive Design:</strong> The app is designed to be responsive, ensuring a seamless experience across devices.</li>
+  </ul>
 
-In the project directory, you can run:
+  <h2>Technologies Used</h2>
+  <ul>
+    <li><strong>Frontend:</strong> HTML, CSS, JavaScript</li>
+    <li><strong>Backend:</strong> Node.js, Express.js</li>
+    <li><strong>Database:</strong> MongoDB</li>
+    <li><strong>Authentication:</strong> JWT (JSON Web Tokens)</li>
+    <li><strong>Deployment:</strong> Heroku</li>
+  </ul>
 
-### `npm start`
+  <h2>Installation</h2>
+  <ol>
+    <li>Clone this repository to your local machine.</li>
+    <li>Navigate to the project directory in your terminal.</li>
+    <li>Install dependencies by running <code>npm install</code>.</li>
+    <li>Start the server by running <code>npm start</code>.</li>
+    <li>Open your web browser and navigate to <code>http://localhost:3000</code> to access the app.</li>
+  </ol>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  <h2>Usage</h2>
+  <ol>
+    <li><strong>Register/Login:</strong> Create a new account or log in using your existing credentials.</li>
+    <li><strong>Add Task:</strong> Click on the "Add Task" button to create a new task. Enter a title and optional description, then click "Save".</li>
+    <li><strong>View Tasks:</strong> See a list of all your tasks on the dashboard. Tasks are displayed with their titles, descriptions, and completion status.</li>
+    <li><strong>Edit Task:</strong> Click on a task to edit its title or description. Make your changes and click "Save".</li>
+    <li><strong>Delete Task:</strong> To delete a task, click on the delete button next to the task.</li>
+    <li><strong>Mark as Completed:</strong> Click on the checkbox next to a task to mark it as completed. Completed tasks are visually distinguished from pending tasks.</li>
+    <li><strong>Filter Tasks:</strong> Use the filter options to view only completed or pending tasks.</li>
+  </ol>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <h2>Contributing</h2>
+  <p>Contributions are welcome! If you'd like to contribute to the development of this project, please follow these steps:</p>
+  <ol>
+    <li>Fork the repository.</li>
+    <li>Create a new branch for your feature or bug fix.</li>
+    <li>Make your changes and commit them with descriptive commit messages.</li>
+    <li>Push your changes to your fork.</li>
+    <li>Submit a pull request to the <code>main</code> branch of the original repository.</li>
+  </ol>
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  <h2>License</h2>
+  <p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
