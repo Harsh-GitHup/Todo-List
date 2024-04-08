@@ -1,4 +1,3 @@
-<a herf="https://todo-list-gamma-53.vercel.app/">Live Link</a>
 <h1>Todo List App</h1>
 
   <p>The Todo List App is a simple application designed to help users organize and manage their tasks efficiently. Users can create, view, update, and delete tasks through a user-friendly interface.</p>
@@ -53,5 +52,6 @@
     <li>Submit a pull request to the <code>main</code> branch of the original repository.</li>
   </ol>
 
-  <h2>License</h2>
-  <p>This project is licensed under the MIT License. See the <a href="#">LICENSE</a> file for details.</p>
+  <h2>License</h2><a herf="">Live Link</a>
+
+  <p>This project is licensed under the MIT License. See the <a href="https://todo-list-gamma-53.vercel.app/">LICENSE</a> file for details.</p>
