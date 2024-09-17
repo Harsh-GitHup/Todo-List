@@ -19,7 +19,7 @@
     <li><strong>Backend:</strong> Node.js, Express.js</li>
     <li><strong>Database:</strong> MongoDB</li>
     <li><strong>Authentication:</strong> JWT (JSON Web Tokens)</li>
-    <li><strong>Deployment:</strong> Heroku</li>
+    <li><strong>Deployment:</strong> Vercel</li>
   </ul>
 
   <h2>Installation</h2>
