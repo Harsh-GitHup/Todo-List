@@ -4,9 +4,9 @@ const Footer = () => {
     const currentYear = new Date().getFullYear();
 
     return (
-    <footer className="App bg-dark text-light py-3">
-            <p className="text-center">
-                Copyright &copy; {currentYear} MyTodosList.com
+        <footer className="footer">
+            <p>
+                Copyright &copy; {currentYear} MyTodosList.com. All rights reserved.
             </p>
         </footer>
     );

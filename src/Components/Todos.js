@@ -1,27 +1,21 @@
-// Todos.js
 import React from 'react';
 import { TodoItem } from "./TodoItem";
 
 const Todos = (props) => {
-    const myStyle = {
-        minHeight: "70vh",
-        margin: "40px auto"
-    };
-
     return (
-        <div className="container" style={myStyle}>
-            <h3 className="my-3">Todos List</h3>
+        <div className="todos-container">
+            <h3>My Tasks</h3>
             {props.todos.length === 0 ? (
-                <p>No Todos to display</p>
+                <div className="empty-state">
+                    <p>No tasks remaining. You're all caught up!</p>
+                </div>
             ) : (
-                props.todos.map((todo, index) => (
+                props.todos.map((todo) => (
                     <TodoItem 
                         key={todo.sno} 
                         todo={todo} 
                         onDelete={props.onDelete} 
                         updateTodo={props.updateTodo} 
-                        isLastItem={index === props.todos.length - 1} 
-                        index={index}
                     />
                 ))
             )}
